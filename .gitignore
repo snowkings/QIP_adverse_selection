@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+qip_tick_level.parquet
+qip_50ms.parquet
+results/report_local.json
+results/grid_rerun/
+media/*_local.mp4
+
+qip_july10_evaluation/
+qip_renderer_review/

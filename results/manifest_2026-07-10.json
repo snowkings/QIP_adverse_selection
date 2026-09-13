@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-10",
+  "source_filename": "qip_50ms.parquet",
+  "source_sha256": "0ad2bb01fce4a671d06da8c81a31448a12aea6ad330332445ebdc61f015626e1",
+  "evaluator_sha256": "48fb759cb8c7a45565cc3965e59e2e88ab612dac872dab6d0ec09a7ab92eaf61",
+  "python_version": "3.12.14",
+  "polars_version": "1.44.2",
+  "generated_utc": "2026-09-09T11:45:51.040451+00:00",
+  "source_rows": 680235,
+  "rth_rows": 468000,
+  "rth_start_utc": "2026-07-10T13:30:00+00:00",
+  "rth_end_utc_exclusive": "2026-07-10T20:00:00+00:00",
+  "input_grid_ms": 50,
+  "threshold_points": 0.125,
+  "horizons_ms": [
+    100,
+    250,
+    500,
+    1000,
+    5000
+  ],
+  "maximum_forward_lookup_delay_ms": 50,
+  "cooldown_ms": null,
+  "timestamp_interpretation": "UTC, from the project's supplied convention; source timestamps are naive",
+  "event_rule": "At/above threshold and preceding row below threshold, or sign flip while above threshold; no cooldown",
+  "opening_state": "Pre-RTH grid row retained to avoid an artificial opening trigger",
+  "synthetic_bars_retained": true,
+  "synthetic_rth_rows": 101723,
+  "output_sha256": {
+    "events_2026-07-10.parquet": "22d5337db4f42efdb93170ffc19ca67cbec24727de11af68c4c438b12ee64e2e",
+    "summary_2026-07-10.csv": "bd30e72cb7982f464b8a562a49a0edc147631838fb2469217fcb24e7becc129c"
+  }
+}
