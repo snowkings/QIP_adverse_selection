@@ -1,5 +1,7 @@
 # QIP: Adverse-Selection Markouts and Execution-State Measurement
 
+**William Karkut. — quantitative execution and market microstructure research**
+
 I do not need to win a latency race; I need to avoid unnecessarily handing over value to the firms that do.
 
 QIP (Quantum-Inspired Price) is a proprietary limit-order-book fair-price estimator that extends Stoikov’s microprice framework. This repository evaluates supplied QIP estimates as a potential execution-state signal and follows the evidence from directional midpoint behavior through a hypothetical aggressive execution test, with explicit clocks, spread costs and outcome counts. The QIP estimator itself is not included.
