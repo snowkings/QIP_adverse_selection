@@ -4,6 +4,8 @@
 
 QIP (Quantum-Inspired Price) is a proprietary limit-order-book fair-price estimator derived from Stoikov microprice and extended with additional limit-order-book state information.
 
+This work measures adverse-selection risk and how it affects execution, as the basis for a process intended to avoid trading into negative markouts. This repository establishes the measurement layer and tests the simplest execution response.
+
 On July 10, 2026, **3.7% of 4,701 QIP trigger events** were followed by an adverse midpoint move at 100 ms. Favorable moves accounted for 37.6%; the midpoint was unchanged in 58.7% of windows. Among windows in which the midpoint changed, 91.1% moved with the signal.
 
 That directional behavior was **not profitably captured by simply crossing the spread**. Average aggressive capture remained negative at every valid tested delay and horizon.
