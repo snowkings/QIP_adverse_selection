@@ -12,9 +12,9 @@ That directional behavior was **not profitably captured by simply crossing the s
 
 That distinction matters: short-horizon microstructure information may be useful without being a standalone trading signal; it may instead belong inside the execution decision itself. This study measures that problem; it does not claim to have solved the execution policy.
 
-[![QIP session replay: ES midpoint and cumulative adverse rates](media/qip_review.png)](media/qip_review.mp4)
+https://github.com/user-attachments/assets/df1d21db-2f46-4038-a582-a555aaffae76
 
-[Open the 25-second MP4](media/qip_review.mp4). Teal is 100 ms; amber is 1 second. The price line is sampled at trigger events. The percentage curves include every valid event and reveal each outcome at completed-bar availability.
+[Download the 25-second MP4](media/qip_review.mp4). Teal is 100 ms; amber is 1 second. The price line is sampled at trigger events. The percentage curves include every valid event and reveal each outcome at completed-bar availability.
 
 ## Why this is not a cross-the-spread signal
 
